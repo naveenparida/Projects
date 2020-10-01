@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fill Up</title>
+</head>
+<style>
+	 select{
+        width: 240px;
+    }
+</style>
+<body style="background-color: #6666FF;">
+<form action="#" name="Registration" onsubmit="return(validate());" method="POST">
+	<table cellpadding="5" width="40%" bgcolor="#6699FF" align="center" cellspacing="5">
+		<tr>
+			<td colspan="2" bgcolor="black">
+				<center><font size="20" color="white">Registration Form</font></center>
+			</td>
+		</tr>
+		<tr>
+			<td>Name*</td>
+			<td><input type="text" name="nm" id="textname" size="30" required="Enter the name"></td>
+		</tr>
+		<tr>
+			<td>Father Name</td>
+			<td><input type="text" name="fn" id="fathername" size="30"></td>
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td><input type="text" name="add" size="30"></td>
+		</tr>
+		<tr>
+			<td>Sex</td>
+			<td><input type="radio" name="gender" value="male"  checked> Male &nbsp &nbsp &nbsp
+			<input type="radio" name="gender" value="female" checked> Female</td>
+		</tr>
+		<tr>
+			<td>City</td>
+			<td>
+			<select name="City">
+				<option value="-1">------------Select City------------</option>
+  				<option value="GUNUPUR">GUNUPUR</option>
+  				<option value="BERHAMPUR">BERHAMPUR</option>
+  				<option value="Rayagada">Rayagada</option>
+		  		<option value="AGRA">AGRA</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Course</td>
+			<td>
+			<select name="Course" >
+				<option value="-1">------------Select Course------------</option>
+  				<option value="BTECH">BTECH</option>
+  				<option value="MBA">MBA</option>
+  				<option value="BBA">BBA</option>
+		  		<option value="AGRICULTURE">AGRICULTURE</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>State</td>
+			<td>
+			<select name="State">
+ 	 			<option value="-1">------------Select State------------</option>
+				<option value="Assam">Assam</option>
+				<option value="Bihar">Bihar</option>
+				<option value="Chandigarh">Chandigarh</option>
+				<option value="Delhi">Delhi</option>
+				<option value="Goa">Goa</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Pincode</td>
+			<td><input type="text" name="pin" size="30"></td>
+		</tr>
+		<tr>
+			<td>Email ID</td>
+			<td><input type="text" name="mail" id="emailid" size="30"></td>
+		</tr>
+		<tr>
+			<td>Mobile No</td>
+			<td><input type="text" name="mnum" id="mobileno" size="30"></td>
+		</tr>
+		<tr>
+			<td><input type="reset" value="Reset"></td>
+			<td><input type="submit" value="Submit"></td>
+		</tr>
+		
+	</table>
+</form>
+</body>
+</html>
